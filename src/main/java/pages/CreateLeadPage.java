@@ -12,7 +12,7 @@ public class CreateLeadPage extends ProjectMethods {
 	public CreateLeadPage() {
 	PageFactory.initElements(driver, this);	  
 	} 
- //Added Comments
+ //Added Comments for committ
 	@FindBy(id="createLeadForm_companyName")
 	WebElement eleCompanyName;
 	@When("Set CompanyName as (.*)")
